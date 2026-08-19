@@ -1,0 +1,15 @@
+:root{
+--font-heading:"Cormorant Garamond",Georgia,serif;
+--font-body:"Montserrat","Helvetica Neue",sans-serif;
+
+--font-xs:10px;--font-sm:12px;--font-body-size:13px;--font-md:16px;--font-lg:22px;--font-xl:38px;--font-hero:54px;
+
+--weight-light:300;--weight-regular:400;--weight-medium:500;--weight-semibold:600;
+
+--leading-hero:.92;--leading-title:1;--leading-body:1.8;--leading-tight:1.4;
+--tracking-hero:.01em;--tracking-nav:.05em;--tracking-eyebrow:.22em;--tracking-button:.05em;--tracking-footer:.04em;
+
+--size-hero:clamp(42px,5vw,62px);
+--size-section-title:clamp(30px,4vw,44px);
+--size-card-title:24px;
+}

@@ -1,0 +1,26 @@
+:root{
+/* base — surfaces */
+--charcoal-deep:#1C1C1B;--black-rich:#151514;--charcoal-soft:#252523;--charcoal-card:#242422;
+/* base — metals */
+--gold-champagne:#D7A95E;--gold-warm:#B88943;--gold-soft:#D8C4A1;
+/* base — lights */
+--cream:#F2E4C9;--ivory:#F7EEDC;--white:#FFFFFF;
+/* base — inks */
+--gray-muted:#AAA7A0;--ink-dark:#28251F;--ink-button:#241F18;
+
+/* semantic — background */
+--color-bg:var(--charcoal-deep);--color-bg-deep:var(--black-rich);--color-bg-card:var(--charcoal-soft);
+--surface-card-light:var(--cream);--surface-card-highlight:var(--ivory);--surface-service:var(--charcoal-card);
+/* semantic — accent */
+--color-gold:var(--gold-champagne);--color-gold-dark:var(--gold-warm);--color-gold-soft:var(--gold-soft);
+/* semantic — text */
+--color-text:var(--white);--color-text-muted:var(--gray-muted);--color-dark-text:var(--ink-dark);
+--text-on-gold:var(--ink-button);--text-eyebrow:var(--color-gold);
+--text-body-dark-bg:var(--gray-muted);--text-body-light-bg:rgba(40,37,31,.78);
+/* semantic — lines */
+--color-border-dark:rgba(215,169,94,.28);--color-border-light:rgba(40,37,31,.14);
+--color-border-hairline:rgba(215,169,94,.14);--color-border-white:rgba(255,255,255,.08);
+/* semantic — overlays */
+--overlay-image:linear-gradient(90deg,rgba(21,21,20,.92) 0%,rgba(21,21,20,.72) 45%,rgba(21,21,20,.38) 100%); /* @kind color */
+--overlay-vignette:radial-gradient(120% 90% at 60% 40%,rgba(0,0,0,0) 35%,rgba(0,0,0,.55) 100%); /* @kind color */
+}

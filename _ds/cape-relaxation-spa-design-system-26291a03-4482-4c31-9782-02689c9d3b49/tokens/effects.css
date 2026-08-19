@@ -1,0 +1,6 @@
+:root{
+--radius-sm:3px;--radius-md:5px;--radius-card:6px;--radius-button:20px;--radius-pill:999px;
+--shadow-card:0 12px 30px rgba(0,0,0,.20);--shadow-soft:0 8px 24px rgba(0,0,0,.14);
+--hairline:1px;
+--rule-gold:1px solid var(--color-gold);
+}

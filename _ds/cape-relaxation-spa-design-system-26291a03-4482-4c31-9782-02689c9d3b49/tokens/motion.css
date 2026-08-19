@@ -1,0 +1,6 @@
+:root{
+--transition-fast:200ms ease; /* @kind other */
+--transition-normal:400ms ease; /* @kind other */
+--transition-slow:700ms ease; /* @kind other */
+--ease-calm:cubic-bezier(.25,.1,.25,1); /* @kind other */
+}
